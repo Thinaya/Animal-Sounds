@@ -1,0 +1,65 @@
+body
+{
+    background: linear-gradient(rgb(250, 225, 86) 0%, rgb(229, 255, 159) 50%, rgb(112, 245, 134) 100%);
+    text-align:center;
+}
+
+h2
+{
+    font-family: 'Bree Serif', serif; 
+}
+
+h3
+{
+    font-family: 'Bree Serif', serif;
+}
+
+h1
+{
+    font-family: 'Bree Serif', serif;
+}
+
+p
+{
+    font-family: 'Bree Serif', serif;
+}
+
+.header_div
+{
+    background:lavender;
+    color:lightseagreen;
+}
+
+.header_div p 
+{
+    font-family: 'Bree Serif', serif;
+    color:lightseagreen;
+letter-spacing: 2px;
+font-size: 12px;
+font-weight:bold;
+}
+
+#main_div button
+{
+    font-family: 'Bree Serif', serif;    margin-top: 30px;
+    width: 130px;
+    font-weight:bolder;
+    letter-spacing: 3px;
+    background-color:lightseagreen;
+    border-width: 3px;
+    border-color:turquoise;
+}
+
+.copy_right_footer
+{
+    position: fixed;
+    color:lightseagreen;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    background-color:lavender;
+    line-height:3;
+    text-align:center;
+    text-shadow: 2px 2px 2px turquoise;
+    font-family: 'Bree Serif', serif;    margin-top: 30px;
+}
