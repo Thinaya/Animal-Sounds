@@ -10,6 +10,7 @@
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
       <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
       <link rel="stylesheet" type="text/css" href="style.css">
+      <script src="sounds.js"></script>
     </head>
     <body>
     <div class="col-xs-12 header_div text-center">
@@ -19,16 +20,17 @@
         <center>
   <br>
   <div id="main_div">
-  <button class="btn btn-warning" onclick="startClassification();"> START </button>
+  <button class="btn btn-warning" onclick="start();"> START </button>
   <h3 id="results_label"> I can hear - </h3>
+  <h3 id="results_confidence"></h3>
   <br>
-  <img src="https://cdn2.iconfinder.com/data/icons/medical-specialties-1/256/Otology-512.png" id="imag1e" width="300" height="300">
+  <img src="https://cdn2.iconfinder.com/data/icons/medical-specialties-1/256/Otology-512.png" id="image1" width="300" height="300">
         </center>
       </div>
       <div class="copy_right_footer">
         Developed by - Thinaya.N
       </div>
-  <script src="main.js"></script>
+
     </body>
   </html>
   
